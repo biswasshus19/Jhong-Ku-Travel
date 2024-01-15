@@ -1,3 +1,160 @@
-.header{
-    
+/* added Mulish font family for 400,500,600,700px  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Mulish:wght@400;500;600;700&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* universial value  */
+/* * {
+    margin-left: 20px;
+} */
+
+/* This is for set full body section  */
+body {
+    font-family: 'Mulish', sans-serif;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* header section style  */
+.header {
+    /* margin-left: 20px; */
+}
+
+.nav {
+    display: flex;
+}
+
+.navbar {
+    width: 50%;
+    display: flex;
+    /* padding: 10px 0px; */
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 44px; */
+    gap: 44px;
+}
+
+.black {
+    color: #424247;
+    font-size: 1.1rem;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+.nav-img {
+    display: flex;
+    width: 50%;
+    /* padding: 0 4px; */
+    /* border: 2px solid gray; */
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+/* .navbar li {
+    list-style: none;
+} */
+
+.red {
+    color: #FF5400;
+    text-align: center;
+    font-size: 1.1rem;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+/* group-13 img style  */
+.group-13-div {
+    margin-top: 20px;
+    width: 1250px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(to bottom,
+            rgba(19, 19, 24, 0.8) 0%,
+            rgba(19, 19, 24, 0) 100%),
+        url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* input style  */
+.travel-head {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 89px 350px 0px;
+}
+
+.travel-description {
+    color: #FFF;
+    /* margin: 10px;    margin: -112px; */
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.from-design {
+    display: inline-flex;
+    padding: 16px 65px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 241px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.form-class {
+    border-radius: 8px;
+}
+
+.input-div {
+    padding: 2px;
+}
+
+/* tour section style  */
+.tour-pan {
+    margin-top: 20px;
+    width: 1250px;
+    height: 500px;
+    display: flex;
+    /* gap: 24px; */
+    margin-bottom: 24px;
+}
+
+.ul-description li {
+    padding: 20px;
+}
+
+.heading {
+    width: 50%;
+}
+
+.btn-primary {
+    width: 154px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 14px 34px;
+    /* padding: 2px; */
+}
+
+.img-heading {
+    width: 50%;
+    width: 540px;
+    height: 550px;
+    margin-left: 63px;
 }
