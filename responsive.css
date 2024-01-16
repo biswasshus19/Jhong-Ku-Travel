@@ -1,3 +1,106 @@
-@media screen and(max-width:600) {
+@media screen and (max-width:600px) {
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar{
+        display: none;
+    }
+    .hide{
+        display: inline;
+        padding: 15px;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .nav-img{
+        gap: 40px;
+    }
+    .group-13-div{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .from-design{
+        flex-direction: column;
+        gap:4px;
+        padding: 16px 65px;
+    }
+    .travel-head{
+        font-size: 30px;
+        padding: 70px 88px 0px;
+    }
+    .from-design {
+        font-size: 15px;
+        display: flex;
+        padding: 0 6px;
+        width: 500px;
+        margin: 0 auto;
+        /* align-items: flex-start; */
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 241px; */
+        gap: 5px;
+        background: rgba(255, 255, 255, 0.30);
     
-}
+    }
+    .tour-pan{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 600px;
+    }
+    main{
+        width: 80%;
+        /* padding: 0 16px; */
+    }
+    .heading{
+        padding: 0 16px;
+    }
+    .destination, .why-choose-class{
+        width: 80%;
+    }
+    .destination-head{
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+    .destination-description{
+        padding-left: 80px;
+    }
+    /* .srilanka{
+        background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png);
+        background-size: cover;
+        background-position: center;
+    } */
+    .destination-img{
+        width: 47%;
+        flex-direction: column;
+        margin-bottom: 500px;
+        background-size: cover;
+    }
+    .why-choose-class{
+        width: 500px;
+        margin: 1900px auto;
+    }
+    .destination-head{
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+    .destination-description{
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+    .hotel-value{
+        flex-direction: column;
+    }
+    .newsleter-section{
+        padding: 14px;
+        width: 500px;
+        margin: 1000px auto;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-text{
+        width: 500px;
+    }
+    }
+    

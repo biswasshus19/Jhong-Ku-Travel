@@ -31,6 +31,9 @@ body {
     /* padding-left: 44px; */
     gap: 44px;
 }
+.hide{
+    display: none;
+}
 
 .black {
     color: #424247;
@@ -67,7 +70,7 @@ body {
 /* group-13 img style  */
 .group-13-div {
     margin-top: 20px;
-    width: 1250px;
+    width: 1226px;
     height: 500px;
     border-radius: 16px;
     background: linear-gradient(to bottom,
